@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="musicplayerai.css" crossorigin="anonymous">
+    <script src="musicplayer.js"></script>
+    <script src="https://kit.fontawesome.com/0a0838e378.js" crossorigin="anonymous"></script>
+    <title>Music Like Spotify</title>
+</head>
+<body>
+    <header id="template">
+        <div class="template-cont">
+            <div class="dot">
+                <img src="earphone.png" alt="logo">
+            </div>
+
+            <div class="player">
+                <img src="player.png" alt="player">
+            </div>
+            
+                <span class="name">
+                Sasta
+                 </span> 
+                 <span class="name2">
+                Spotify
+                </span>
+         
+        <div class="heading">
+                <p>Favourites</p>
+            </div>
+
+            <div class="custom_input">
+                <input class="input" type="text" placeholder="Search">
+            </div>
+                            
+            <div class="mic">
+                <i class="fa-solid fa-microphone fa-lg" style="color: #ffffff;"></i>
+            </div>
+
+            <div class="search-bar">
+                <i class="fa-solid fa-magnifying-glass fa-lg" style="color: #ffffff;"></i>
+            </div>
+
+            <div class="bell-logo">
+                <i class="fa-regular fa-bell fa-xl" style="color: #ffffff;"></i>
+            </div>
+
+            <div class="pfp">
+                <img src="pfp.jpeg" alt="profile">
+            </div>
+
+        </div>
+    </header>
+
+    <aside class="playlist">
+        <h3>Queue</h3>
+        <div class="playlist-list">
+            <div class="playlist-dropdown">
+                    <button class="dropbtn">Queue
+                    <i class="fa-solid fa-chevron-down" style="color: #41acb4;"></i></button>                    
+                    <div class="dropdown-content">
+                      <a href="#">Playlist</a>
+                      <a href="#">Favourite Songs</a>
+                    </div>
+            </div>
+            <div class="playlist-main">
+        <li>
+            <ol>Mirage</ol>
+            <ol>Else</ol>
+            <ol>worry about us</ol>
+            <ol>rossie falgun</ol>
+            <ol>don't worry</ol>
+            <ol>albert dongston</ol>
+            <ol>else where</ol>
+            <ol>fingston </ol>
+            <ol>Nowhere</ol>
+            <ol>james</ol>
+        </li>
+        </div>
+        </div>
+     </aside>
+
+    <section id="Image-template">
+        <div class="image-container">
+            <div class="image-wrapper">
+              <img src="template3.png" alt="Image 1" class="image" />
+            </div>
+            <div class="image-wrapper1">
+              <img src="template3.png" alt="Image 2" class="image" />
+            </div>
+            <div class="image-wrapper2">
+              <img src="template2.png" alt="Image 3" class="image" />
+            </div>
+          </div>
+    </section>
+
+</body>
+</html>
